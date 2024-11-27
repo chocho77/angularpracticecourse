@@ -1,11 +1,9 @@
 import { Component } from '@angular/core';
-import { AdminComponent } from '../admin/admin.component';
-import { UserComponent } from '../user/user.component';
-import { TempComponent } from '../components/temp.component';
+import { DataBindingComponent } from '../components/data-binding/data-binding.component';
 
 @Component({
   selector: 'app-root',
-  imports: [AdminComponent, UserComponent, TempComponent],
+  imports: [DataBindingComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
